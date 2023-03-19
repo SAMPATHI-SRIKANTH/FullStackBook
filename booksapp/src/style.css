@@ -1,0 +1,66 @@
+.App {
+    height: 100vh;
+    padding: 0px 100px;
+}
+.books {
+    list-style-type: none;
+    padding-left: 0px;
+}
+.book{
+    display: flex;
+}
+.cover-image{
+    height: 100px;
+    width: 80px;
+    margin-right: 30px;
+}
+.title {
+    font-family: "Roboto";
+    font-size: 35px;
+    font-weight: 600;
+    color: green;
+ 
+    margin: 0px;
+}
+.author{
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 300;
+    color: rgb(88, 83, 79);
+}
+.book-info{
+    height: 100%;
+    padding: 0px;
+}
+.addnewbtn{
+    border: none;
+    background-color: rgb(128, 144, 209);
+    padding: 0px 20px;
+    text-decoration: none;
+    
+    
+}
+.add{
+    text-decoration: none;
+    padding: 3px;
+    color:white;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width:250px;
+    gap: 20px;
+}
+input{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+.form-add{
+border: none;
+padding: 10px;
+background-color: blueviolet;
+color: white;
+width: 150px;
+border-radius: 8px;
+}
